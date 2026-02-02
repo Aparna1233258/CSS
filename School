@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Announcement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .notice-box {
+            position: relative;
+            width: 70%;
+            margin: 30px auto;
+            background-color: darkorchid;
+            padding: 30px;
+            min-height: 180px;
+            overflow: auto; 
+            border-radius: 8px;
+        }
+
+        .notice-box img {
+            float: left;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+            border-radius: 6px;
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color:darkgreen;
+            color: red;
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 12px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Important Notice</h1>
+
+    <div class="notice-box">
+        <div class="badge">NEW</div>
+
+        <img src="https://png.pngtree.com/png-vector/20240410/ourmid/pngtree-attention-please-banner-illustration-sign-important-notice-icon-public-announcement-vector-png-image_12269632.png" alt="Notice.jpg">
+
+        <p>
+            This is an important announcement for all students and staff. 
+            The school will remain closed on Friday due to scheduled maintenance.
+            Online classes will continue as usual. Please check your email 
+            regularly for further updates and instructions from the administration.
+        </p>
+
+        <p>
+            We appreciate your cooperation and understanding.
+        </p>
+
+        <div class="clear"></div>
+    </div>
+
+</body>
+</html>
