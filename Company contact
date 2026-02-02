@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Contact Card</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding-top: 70px; 
+            background-color: white;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: purple;
+            color: Green;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+            font-weight: bold;
+            z-index: 1000;
+        }
+
+        .profile-container {
+            position: relative;
+            width: 80%;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            overflow: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px orangered;
+        }
+
+        .profile-image {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-content {
+            margin-right: 220px; 
+            padding-right: 20px;
+            border-right: 2px solid #ccc; 
+            text-align: center;
+        }
+
+        .profile-content h2 {
+            margin-top: 0;
+        }
+
+        .profile-content p {
+            margin: 10px 0;
+        }
+
+        .contact-info {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 180px;
+            padding: 15px;
+            background-color: red;
+            border-radius: 6px;
+            text-align: center;
+            overflow: auto;
+            max-height: 160px;
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    Company Contact Card
+</header>
+
+<div class="profile-container">
+    <div class="profile-image">
+        <img src="https://www.processmaker.com/wp-content/uploads/2021/04/employee-onboarding-768x684.jpg" alt="Employee.jpg">
+    </div>
+
+    <div class="profile-content">
+        <h2>Harsha</h2>
+        <p><strong> Software Engineer</strong></p>
+        <p>
+            <h3> Senior Software Engineer</h3>
+            <div class="description">
+                Harsha is an experienced developer specializing in front-end and UI design.
+                She enjoys creating clean, user-friendly interfaces and mentoring junior developers.
+</div>
+
+    </div>
+    <div class="contact-info">
+    <h3>Contact Info</h3>
+    <dl>
+        <dt>Phone:</dt>
+        <dd>(123) 456-789</dd>
+        <dt>Email:</dt>
+        <dd>abc.123@company.com</dd>
+    </dl>
+</div>
+
+
+</div>
+
+</body>
+</html>
