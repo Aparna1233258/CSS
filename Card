@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+
+    <style>
+        div {
+            border: 2px solid black;      
+            border-radius: 25px;
+            height: 400px;
+            width: 300px;
+            padding: 10px;               
+            margin: 50px;                
+            text-align: center;
+        }
+
+        .pic {
+            max-width: 100%;
+            min-width: 200px;
+            height: auto;
+        }
+
+        .name {
+            padding: 10px;
+            color: #333;
+        }
+
+        .para {
+            padding: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img src="Laptop.jpg" alt="Image of Laptop" class="pic">
+
+        <h3 class="name">iPhone 17</h3>
+
+        <p class="para">
+    This laptop is designed for high performance and everyday productivity,
+    featuring a fast processor, ample storage, and a sleek, lightweight design.
+</p>
+
+    </div>
+
+</body>
+</html>
