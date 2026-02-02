@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/free-vector/abstract-low-poly-mesh-background-design_1048-7440.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: rgb(235, 41, 147);
+            background-color: rgb(6, 253, 80);
+            padding: 10px;
+        }
+
+        p {
+            color: black;
+            background-color: rgb(69, 163, 158);
+            padding: 10px;
+        }
+
+        h5 {
+            color: darkred;
+            background-color: orange;
+            font-style: italic;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>APARNA</h1>
+
+    <p>
+        My name is Aparna. I am a student who is learning FullStack Python and
+        enjoys creating simple and creative web pages.
+    </p>
+
+    <h5>
+        "Success comes to those who keep moving forward."
+    </h5>
+
+</body>
+</html>
