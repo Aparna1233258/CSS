@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+</head>
+
+<body>
+
+    <h1 style="color: rgb(255, 0, 0);">
+        Samsung Galaxy S23
+    </h1>
+
+    <h3 style="color: hsl(240, 60%, 50%);">
+        Price: ₹74,999
+    </h3>
+
+    <p style="background-color: #E0F7FA; color: rgb(0, 0, 0);">
+        Samsung Galaxy S23 is a powerful smartphone featuring a high-performance
+        processor, advanced camera system, and long-lasting battery for daily use.
+    </p>
+
+</body>
+</html>
