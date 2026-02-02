@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Info</title>
+
+<style>
+  .company-name {
+    text-align: right;
+    color: #2b6cb0;
+    font-family: serif;
+  }
+
+  .tagline {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+  }
+
+  table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+  }
+
+  th, td {
+    border: 1px solid #050a03;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+</style>
+
+</head>
+<body>
+
+  <h3 class="company-name">Alo Solutions</h3>
+  <p class="tagline">We Connect People</p>
+
+  <table>
+    <tr>
+      <th>Department</th>
+      <th>Contact Number</th>
+    </tr>
+    <tr>
+      <td>Sales</td>
+      <td>8270428837</td>
+    </tr>
+    <tr>
+      <td>Support</td>
+      <td>8428310550</td>
+    </tr>
+  </table>
+
+</body>
+</html>
