@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+
+  <style>
+    section p::first-line {
+      font-weight: bold;
+    }
+
+    section p::first-letter {
+      color: red;
+    }
+
+    h3 + h3 {
+      color: green;
+    }
+
+    a {
+      color: blue;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul li:first-child a {
+      color: red;
+    }
+
+    div ul li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h2>About Our Website</h2>
+
+    <p>
+      This website is created to demonstrate basic HTML and CSS concepts in a simple way.
+      Notes given in this website are easy to learn.
+    </p>
+
+    <p>
+      Each paragraph shows how pseudo-elements can be used for styling text creatively.
+      Also about pseudo classes.
+    </p>
+  </section>
+
+  <div>
+    <h3>Overview</h3>
+    <h3>Details</h3>
+  </div>
+
+  <div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
