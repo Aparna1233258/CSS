@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blog Post</title>
+
+<style>
+  .post {
+    width: 400px;
+    border: 1px solid black;
+    padding: 15px;
+  }
+
+  .post p::first-line {
+    font-weight: bold;
+  }
+
+  .post p::first-letter {
+    font-size: 30px;
+    color: red;
+  }
+
+  blockquote::before {
+    content: "“";
+    font-size: 25px;
+  }
+
+  a:link {
+    color: blue;
+  }
+
+  a:visited {
+    color: orangered;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h4 {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  h4 + h4 {
+    color: green;
+  }
+</style>
+</head>
+
+<body>
+
+<h1>My first blog post</h1>
+<div class="author">By Aparna</div>
+
+<div class="post">
+  <p>
+    Welcome to my blog! This is my first post where I will be sharing my thoughts
+    on web development.
+  </p>
+
+  <blockquote>
+    Web development is an exciting field that combines creativity and technical skills.
+  </blockquote>
+
+  <p>
+    For more resources, visit
+    <a href="https://www.w3schools.com/whatis/">this link</a>
+  </p>
+
+  <h4>Next Post</h4>
+  <h4>Another Heading</h4>
+</div>
+
+</body>
+</html>
