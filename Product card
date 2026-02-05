@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+</head>
+<style>
+  body {
+      font-family: sans-serif;
+    }
+
+    .product-card {
+      width: 300px;
+      padding: 16px;
+      border: 1px solid #ccc;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .product-image {
+      width: 100%;
+      height: auto;
+      border: 2px solid black;
+      border-radius: 8px 0 8px 0; 
+    }
+     .product-name {
+      font-size: 20px;
+      margin: 12px 0;
+    }
+
+    .buy-button {
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .product-card {
+        margin: 0 auto;
+        text-align: center;
+      }
+       .product-name {
+        font-size: 16px;
+      }
+
+      .buy-button {
+        font-size: 14px;
+      }
+    }
+
+    @media (orientation: landscape) {
+      .product-card {
+        background-color: lightyellow;
+      }
+    }
+</style>
+<body>
+  <div class="product-card">
+    <img src="https://apexel.in/cdn/shop/files/EDA007087723A.jpg?v=1749950282" alt="Iphone.jpg" class="product-image">
+    <h2 class="product-name">Sample Product</h2>
+    <button class="buy-button">Buy Now</button>
+  </div>
+  
+  
+</body>
+</html>
