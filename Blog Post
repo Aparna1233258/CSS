@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Featured Blog Section</title>
+  <style>
+    .featured-blogs {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .blog-post {
+      Width: 30%;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    .blog-post h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    .blog-post img {
+      width: 20%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    a[href^="https"] {
+      color: red;
+      font-weight: bold;
+    }
+
+    img[src$=".jpg"] {
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .featured-blogs {
+        flex-direction: column;
+      }
+
+      .blog-post h3 {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media (orientation: portrait) {
+      .featured-blogs {
+        background-color: lightyellow;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="Featured blogs">
+    <div class="blog-post">
+      <h3>Blog Post 1</h3>
+        <img src="https://i.pinimg.com/736x/3a/3d/4b/3a3d4b04d70cc293fadf195b4e1a7bcb.jpg" alt="Dog.jpg">
+        <p>
+            This is my first blog post.This post is about dogs.
+        </p>
+        <a href="https://in.pinterest.com/pin/4151824651663668/">For more</a>
+    </div>
+    </div>
+    <div class="blog-post">
+    <h4>Blog Post 2</h4>
+    <img src="https://img.freepik.com/free-photo/cute-cat-spending-time-outside_23-2150649152.jpg?semt=ais_hybrid&w=740&q=80."alt="Cat.jpg">
+    <p>
+        This is my second blog post.This post is about cats.
+    </p>
+    <a href="https://www.freepik.com/photos/cute-cat">For more</a>
+    </div>
+
+    <div class="blog-post">
+    <h5>Bolg Post 3</h5>
+    <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg"alt="Nature.jpg">
+    <p>
+        This is my third blog post.This post is about nature.
+    </p>
+    <a href="https://pixabay.com/photos/nature-waters-lake-island-3082832/">For more</a>
+
+</div>
+
+    </body>
+
+   
+
+</body>
+</html>
